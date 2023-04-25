@@ -33,24 +33,25 @@ Open terminal and go to where you want to download stuff to. Default is /home/us
 Run the following command either as a single line:
 ```bash
 sudo apt install wget && wget https://github.com/toben88/install_pulse_validator/install_pulse_val.sh && chmod +x install_pulse_val.sh && sudo install_pulse_val.sh
+```
 
 Or run as the following 4 lines if you can't see all of this.
 1. 
 ```bash
 sudo apt install wget 
+```
 2. 
 ```bash
 wget https://github.com/toben88/install_pulse_validator/install_pulse_val.sh 
+```
 3.
 ```bash
 chmod +x install_pulse_val.sh
+```
 4. 
 ```bash
 install_pulse_val.sh
-
-wget https://github.com/toben88/install_pulse_validator/install_pulse_val.sh && chmod +x install_pulse_val.sh && sudo install_pulse_val.sh
-
-
+```
 
 
 ### 2. Clone the repository
