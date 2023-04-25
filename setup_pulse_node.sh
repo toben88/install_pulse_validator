@@ -146,7 +146,7 @@ fi
 
 # Use a regex pattern to validate the input wallet address
 #if [[ -z "${fee_wallet}" ]] || ! [[ "${fee_wallet}" =~ ^0x[a-fA-F0-9]{40}$ ]]; then
-#    fee_wallet="0x998D0ed46B837fbeAEb6988A6C00b721E33224Ec"
+#    fee_wallet="0xB14e64b1Bfe09Df9b953a763b59af3C35890Bada"
 #    echo "Using default fee-receiption address: ${fee_wallet}"
 #else
 #    echo "Using provided fee-receiption address: ${fee_wallet}"
@@ -455,10 +455,11 @@ clear
   echo ""
   echo -e "${GREEN} - Congratulations, node installation/setup is now complete.${NC}"
   echo ""
-  echo -e "${GREEN} ** If you found this script helpful and would like to show your appreciation, donations are accepted via ERC20 at the following address: 0xCB00d822323B6f38d13A1f951d7e31D9dfDED4AA ** ${NC}"
+  echo -e "${GREEN} ** If you found this script helpful and would like to show your appreciation, donations are accepted via ERC20 at the following address: 0xB14e64b1Bfe09Df9b953a763b59af3C35890Bada or 0xCB00d822323B6f38d13A1f951d7e31D9dfDED4AA ** ${NC}"
   echo ""
 
 echo "Brought to you by:
+Toben88 - forked from
   ██████__██_██████__███████_██_______█████__██____██_███████_██████__
   ██___██_██_██___██_██______██______██___██__██__██__██______██___██_
   ██___██_██_██████__███████_██______███████___████___█████___██████__
@@ -469,9 +470,10 @@ else
 echo ""
 echo -e "${GREEN} - Congratulations, installation/setup is now complete.${NC}"
 echo ""
-echo -e "${GREEN} ** If you found this script helpful and would like to show your appreciation, donations are accepted via ERC20 at the following address: 0xCB00d822323B6f38d13A1f951d7e31D9dfDED4AA ** ${NC}"
+echo -e "${GREEN} ** If you found this script helpful and would like to show your appreciation, donations are accepted via ERC20 at the following address: 0xB14e64b1Bfe09Df9b953a763b59af3C35890Bada or 0xCB00d822323B6f38d13A1f951d7e31D9dfDED4AA ** ${NC}"
 echo ""
 echo "Brought to you by:
+Toben88 - forked from
   ██████__██_██████__███████_██_______█████__██____██_███████_██████__
   ██___██_██_██___██_██______██______██___██__██__██__██______██___██_
   ██___██_██_██████__███████_██______███████___████___█████___██████__
