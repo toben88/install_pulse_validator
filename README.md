@@ -32,7 +32,7 @@ erc20: 0xCB00d822323B6f38d13A1f951d7e31D9dfDED4AA
 Open terminal and go to where you want to download stuff to. Default is /home/username
 Run the following command either as a single line:
 ```bash
-sudo apt install git && git clone https://github.com/toben88/install_pulse_validator && cd install_pulse_validator && chmod +x install_pulse_val.sh && sudo install_pulse_val.sh
+sudo apt install git && git clone https://github.com/toben88/install_pulse_validator && cd install_pulse_validator && chmod +x install_pulse_val.sh && sudo ./install_pulse_val.sh
 ```
 
 Or run as the following 4 lines if you can't see all of this.
@@ -50,7 +50,7 @@ cd install_pulse_validator && chmod +x install_pulse_val.sh
 ```
 4. 
 ```bash
-sudo install_pulse_val.sh
+sudo ./install_pulse_val.sh
 ```
 
 
