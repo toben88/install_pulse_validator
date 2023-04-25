@@ -32,13 +32,10 @@ erc20: 0xCB00d822323B6f38d13A1f951d7e31D9dfDED4AA
 Open terminal and go to where you want to download stuff to. Default is /home/username
 Run the following command:
 ```bash
-sudo apt-get install wget && wget https://github.com/toben88/install_pulse_validator/install_pulse_val.sh && sudo install_pulse_val.sh
+sudo apt-get install wget \
+&& wget https://github.com/toben88/install_pulse_validator/install_pulse_val.sh \
+&& sudo install_pulse_val.sh
 
-
-&& cd install_pulse_validator && chmod +x setup_pulse_node.sh && sudo ./setup_pulse_node.sh
-
-
-sudo apt-get install git && git clone https://github.com/toben88/install_pulse_validator && cd install_pulse_validator && chmod +x setup_pulse_node.sh && sudo ./setup_pulse_node.sh
 
 
 
