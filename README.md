@@ -1,18 +1,21 @@
 ## Pulse Chain Validator - Forked from tsdlaine
+Scroll down and read all the stuff below.
 <div align="center">
    
 <img src="https://user-images.githubusercontent.com/46573429/233395501-99a54d99-7184-4d96-9d00-7b82f9da3939.png" style="max-width: 100%; margin: 0 auto;"/>
 </div>
 
 ## Interactive Setup
-Pulse-Chain Unleashed: Experience the Harmony of Effortless Innovation and Peace of Mind with this interactive setup script 
+Pulse-Chain Validator node - this will spin up all the stuff you need to install for a pulsechain validator.
 
 ## Installing and Running Pulse Node with the option to add the lighthouse-validator
 
-This guide will help you install and run the Pulse Node using the provided `setup_pulse_node.sh` script.
+This guide will help you install and run the Pulse Node using the single command for ubuntu and debian by a single command. 
 
-donations accepted so I might be able to work on mainnet too 😃
+donations acceptable so I might be able to work on other stuff as well😃
+0xB14e64b1Bfe09Df9b953a763b59af3C35890Bada
 
+also for tsdlaine whose code I forked
 erc20: 0xCB00d822323B6f38d13A1f951d7e31D9dfDED4AA
 
 ## Prerequisites
@@ -22,13 +25,14 @@ erc20: 0xCB00d822323B6f38d13A1f951d7e31D9dfDED4AA
 
 # - Installation Steps -
 
-### 1. Install Git** (if not already installed) 
+### 1. Run a single command to install all libraries, dockers, git etc to run a validator.
 
-To install Git on a Unix-based system, you can use the package manager specific to your operating system. For example, on Ubuntu or Debian, you can use the following command:
+Prerequisites: User account that has sudo capabilities.
+Open terminal and go to where you want to download stuff to. Default is /home/username
+Run the following command: 
+sudo 
 
-   ```bash
-   sudo apt-get install git
-   ```
+
 ### 2. Clone the repository
 
 Open the terminal and navigate to the directory where you want to download the repository. Then, use the following command to clone the repository:
