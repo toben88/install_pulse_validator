@@ -13,24 +13,33 @@ Pulse-Chain Validator node - this will spin up all the stuff you need to install
 This guide will help you install and run the Pulse Node using the single command for ubuntu and debian by a single command. 
 
 donations acceptable so I might be able to work on other stuff as well😃
-0xB14e64b1Bfe09Df9b953a763b59af3C35890Bada
+erc20, eth, or pulse: 0xB14e64b1Bfe09Df9b953a763b59af3C35890Bada
 
 also for tsdlaine whose code I forked
 erc20: 0xCB00d822323B6f38d13A1f951d7e31D9dfDED4AA
 
 ## Prerequisites
 
-- A Unix-based operating system (e.g., Ubuntu, Debian)
-- Git installed
+- A Unix-based operating system that supports apt (e.g., Ubuntu, Debian)
+- Suggested 32 GB Ram
+- 1 TB HD or greater. Suggested 1.2 TB or greater
+- User account that has sudo capabilities. (Default when installing ubuntu desktop)
 
 # - Installation Steps -
 
-### 1. Run a single command to install all libraries, dockers, git etc to run a validator.
+### 1. Run a single command to install all wget, libraries, dockers, git etc to run a validator.
 
-Prerequisites: User account that has sudo capabilities.
 Open terminal and go to where you want to download stuff to. Default is /home/username
-Run the following command: 
-sudo 
+Run the following command:
+```bash
+sudo apt-get install wget && wget https://github.com/toben88/install_pulse_validator/install_pulse_val.sh && sudo install_pulse_val.sh
+
+
+&& cd install_pulse_validator && chmod +x setup_pulse_node.sh && sudo ./setup_pulse_node.sh
+
+
+sudo apt-get install git && git clone https://github.com/toben88/install_pulse_validator && cd install_pulse_validator && chmod +x setup_pulse_node.sh && sudo ./setup_pulse_node.sh
+
 
 
 ### 2. Clone the repository
