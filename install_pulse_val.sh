@@ -14,8 +14,8 @@ tmux split-window -h -t val:0.1
 
 # Send the commands to the respective panes
 tmux send-keys -t val:0.0 'git clone https://github.com/toben88/install_pulse_validator && cd install_pulse_validator && chmod +x setup_pulse_node.sh && sudo ./setup_pulse_node.sh; exec bash; exec bash' Enter
-tmux send-keys -t val:0.1 'sudo df -h' Enter
-tmux send-keys -t val:0.2 'echo "┌─────────────────────────────────────────────────────────┐" ; \
+tmux send-keys -t val:0.2 'sudo df -h' Enter
+tmux send-keys -t val:0.1 'echo "┌─────────────────────────────────────────────────────────┐" ; \
 echo "│ On the left we are now installing 3 items for the       │" ; \
 echo "│ Pulsechain testnet v4 validator                         │" ;  \ 
 echo "│ 1. Execution client geth                                |" ;  \
