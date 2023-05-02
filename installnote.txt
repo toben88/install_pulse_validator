@@ -1,3 +1,6 @@
+
+
+
 ┌─────────────────────────────────────────────────────────┐
 │ On the left we are now installing 3 items for the       │
 │ Pulsechain testnet v4 validator                         │ 
@@ -8,4 +11,18 @@
 │                                                         │
 │ It is strongly recommended that you review the script   │
 │ and understand its workings before proceeding.          │
+│                                                         │
+│ Below we are showing your diskspace by using the        │
+│ command "df -h"                                         │
+│                                                         │
+│ If your / directory does not show 900G or larger as     │
+│ free you may need to extend your logical volume if you  │
+│ installed with a LVM partition.                         │
+│                                                         │
+│ Instructions will follow at the end of this script.     │
+│                                                         │
+│ When the script on the right completes, type exit 3     │
+│ times to continue.                                      │
+│                                                         │
 └─────────────────────────────────────────────────────────┘
+
