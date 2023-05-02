@@ -438,7 +438,7 @@ fi
 
 read -p "Do you want to start the execution and consensus scripts now? [Y/n] " choice
 
-# Check if the user wants to run the scripts
+# Check if the user wants to continue
 if [[ "$choice" =~ ^[Yy]$ || "$choice" == "" ]]; then
 
   # Generate the command to start the scripts
@@ -455,7 +455,7 @@ clear
   echo ""
   echo -e "${GREEN} - Congratulations, node installation/setup is now complete.${NC}"
   echo ""
-  echo -e "${GREEN} ** If you found this script helpful and would like to show your appreciation, donations are accepted via ERC20 at the following address: 0xB14e64b1Bfe09Df9b953a763b59af3C35890Bada or 0xCB00d822323B6f38d13A1f951d7e31D9dfDED4AA ** ${NC}"
+  echo -e "${GREEN} ** If you found this script helpful and would like to show your appreciation, donations are accepted via ERC20 at the following address: 0xBf929bdA952cEf3C1ef1f8a8Bb35e09897E4d9E8 or 0xB14e64b1Bfe09Df9b953a763b59af3C35890Bada or 0xCB00d822323B6f38d13A1f951d7e31D9dfDED4AA ** ${NC}"
   echo ""
 
 echo "Brought to you by:
@@ -470,7 +470,7 @@ else
 echo ""
 echo -e "${GREEN} - Congratulations, installation/setup is now complete.${NC}"
 echo ""
-echo -e "${GREEN} ** If you found this script helpful and would like to show your appreciation, donations are accepted via ERC20 at the following address: 0xB14e64b1Bfe09Df9b953a763b59af3C35890Bada or 0xCB00d822323B6f38d13A1f951d7e31D9dfDED4AA ** ${NC}"
+echo -e "${GREEN} ** If you found this script helpful and would like to show your appreciation, donations are accepted via ERC20 at the following address: 0xBf929bdA952cEf3C1ef1f8a8Bb35e09897E4d9E8 or 0xB14e64b1Bfe09Df9b953a763b59af3C35890Bada or 0xCB00d822323B6f38d13A1f951d7e31D9dfDED4AA ** ${NC}"
 echo ""
 echo "Brought to you by:
 Toben88 - forked from
