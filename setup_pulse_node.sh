@@ -5,8 +5,8 @@
 #Three shapes in symmetry dance,
 #Nature's art is shown.
 
-# v. 0.9
-# By tdslaine aka Peter L Dipslayer 
+# v. 0.91
+# Forked by minerbob - orignally By tdslaine aka Peter L Dipslayer 
 #
 # Set color variables
 GREEN='\033[0;32m'
@@ -105,8 +105,8 @@ echo ""
 clear
 echo "Choose your Execution client:"
 echo "1) Geth (full node, authors choice)"
-echo "2) Erigon (archive node)"
-read -p "Enter the number (1 or 2): " ETH_CLIENT_CHOICE
+
+read -p "Enter the number (1): " ETH_CLIENT_CHOICE
 
 case $ETH_CLIENT_CHOICE in
   1) ETH_CLIENT="geth" ;;
@@ -117,8 +117,8 @@ echo ""
 
 echo "Choose your Consensus client:"
 echo "1) Lighthouse (authors choice)"
-echo "2) Prysm"
-read -p "Enter the number (1 or 2): " CONSENSUS_CLIENT_CHOICE
+
+read -p "Enter the number (1): " CONSENSUS_CLIENT_CHOICE
 
 case $CONSENSUS_CLIENT_CHOICE in
   1) CONSENSUS_CLIENT="lighthouse" ;;
