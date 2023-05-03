@@ -4,13 +4,13 @@
 tmux new-session -d -s logs
 
 # Split the window horizontally
-tmux split-window -h -t logs
+tmux split-window -v -t logs
 
 # Select the first pane and split it vertically
 tmux split-window -v -t logs:0.0
 
 # Select the second pane and split it vertically
-tmux split-window -v -t logs:0.1
+tmux split-window -h -t logs:0.1
 
 # Evenly distribute the pane sizes
 tmux select-layout -t logs tiled
