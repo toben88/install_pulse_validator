@@ -2,7 +2,7 @@
 
 
 ┌─────────────────────────────────────────────────────────┐
-│ On the left we are now installing 3 items for the       │
+│ Above we are now installing 3 items for the             │
 │ Pulsechain testnet v4 validator                         │ 
 │ 1. Execution client geth                                |
 | 2. Beacon client lighhouse                              │
