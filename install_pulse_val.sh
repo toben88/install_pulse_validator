@@ -4,10 +4,10 @@
 tmux new-session -d -s val
 
 # Split the window vertically
-tmux split-window -h -t val
+tmux split-window -v -t val
 
 # Select the 2ndt pane and split it horizontally
-tmux split-window -v -t val:0.1
+tmux split-window -h -t val:0.1
 
 # Evenly distribute the pane sizes
 #tmux select-layout -t val tiled
