@@ -25,7 +25,7 @@
 │ Instructions will follow at the end of this script.     │
 │                                                         │
 │ When the script on the right completes, type exit 3     │
-│ times or until the green bar goes away.                  │
+│ times or until the green bar goes away.                 │
 │                                                         │
 └─────────────────────────────────────────────────────────┘
 
