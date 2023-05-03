@@ -8,6 +8,9 @@
 | 2. Beacon client lighhouse                              │
 │ 3. Validator client                                     │
 │                                                         │
+│ WARNING this will install a firewall on this linux      │
+│ install. If you don't want this DO NOT INSTALL!!!       │
+│ Port 22 can stay open for ssh if you choose to.         │
 │                                                         │
 │ It is strongly recommended that you review the script   │
 │ and understand its workings before proceeding.          │
@@ -22,7 +25,7 @@
 │ Instructions will follow at the end of this script.     │
 │                                                         │
 │ When the script on the right completes, type exit 3     │
-│ times to continue.                                      │
+│ times or until the green bar goes away.                  │
 │                                                         │
 └─────────────────────────────────────────────────────────┘
 
