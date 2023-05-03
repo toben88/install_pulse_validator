@@ -1,0 +1,11 @@
+Congratulations on installing everything. 
+
+To view your running validator type the following commands.
+/blockchain/tmux_logviewer.sh
+
+To remove everything installed run the /blockchain/stop_remove_images.sh command then delete the /blockchain directory then delete the install directory under your home. 
+
+If you reboot your computer everything will start back up automatically.
+
+For information goto https://github.com/toben88/install_pulse_validator
+
